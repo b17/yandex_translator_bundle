@@ -1,0 +1,4 @@
+services:
+    yandex_translator:
+        class: b17\YandexTranslatorBundle\Client\YandexTranslatorClient
+        arguments: [%b17.yandex_translator.api_key%]
